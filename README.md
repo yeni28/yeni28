@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+## 안녕하세요 저는 🌱김예은🌱입니다.
+
 <!--
 **yeni28/yeni28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
