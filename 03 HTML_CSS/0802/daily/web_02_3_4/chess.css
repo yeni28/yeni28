@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+}
+
+.row {
+    border: 1px solid black;
+    width: 800px;
+}
+
+.row > div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+.row:nth-of-type(2n - 1) > div:nth-of-type(2n) { 
+    /*2n번째 div*/
+
+    background-color: black;
+}
+
+.row:nth-of-type(2n) > div:nth-of-type(2n -1) { 
+    /*홀수번째 div*/
+
+    background-color: black;
+}
+
+.chessboard{
+    position:absolute;
+
+}
+
+.pawn{
+    background-image: url('black_pawn.png');
+    background-size: 100%;
+}
+
+.queen{
+    background-image: url('white_queen.png');
+    background-size: 100%;
+}
+.king{
+    background-image: url('white_king.png');
+    background-size: 100%;
+}
+.rook{
+    background-image: url('white_rook.png');
+    background-size: 100%;
+}
