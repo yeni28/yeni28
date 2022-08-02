@@ -49,3 +49,6 @@
     background-image: url('white_rook.png');
     background-size: 100%;
 }
+
+/* background-sizw:cover = 요소의 크기에 맞게 이미지를 조절해서 설정해준다.
+*/

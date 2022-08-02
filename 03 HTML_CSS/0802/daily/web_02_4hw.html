@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 자손 결합자*/
+        div span {
+            color:blue;
+        }
+
+          /* 자식 결합자*/
+          div > p {
+            color:crimson;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div>
+        <span> 이건 파랑입니다.</span>
+        <p>이건 파랑이 아닙니다.</p>
+        <span>
+            <p>이건 파랑입니다.</p>
+        </span>
+    </div>
+    /* 자손 결합자의 경우 selector div 하위의 모든 span 요소에 적용이 된다.*/
+
+
+    <div>
+        <p>이건 빨강입니다.</p>
+        <span> 이건 빨강이 아닙니다.</span>
+        <p>
+            <span>이건 빨강이 아닙니다.</span>
+        </p>
+    </div>
+    /* 자식 결합자의 경우 selector div의 바로 아래의 p요소에만 적용이 되는 것을 볼 수 있다*/
+
+</body>
+</html>
