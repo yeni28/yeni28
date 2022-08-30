@@ -1,0 +1,15 @@
+{% extends 'base2.html'%}
+{% block content %}
+
+    <h1>Throw</h1>
+    <form action='{% url 'catch' %}' method='GET'>
+        <label for='message'> 메세지 던지기</label>
+        <input type='text' id='message' name='message'>
+        {% comment %} name 속성이 정말정말 중요하다. {% endcomment %}
+        <input type='submit'>
+
+        <a href='{% url 'index' %}'> 홈으로</a>
+        
+    </form>
+
+{% endblock content %}
