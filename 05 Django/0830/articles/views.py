@@ -6,7 +6,7 @@ def index(request):
     #request : 사용자의 요청 정보가 담겨있다.abs(
     # render는 화면을 만들어주는 함수
     # 사용자에게 보여줄 화면 html 함수이름
-    return render(request, 'index.html')
+    return render(request, 'articles/index.html')
 
 def greeting(request):
     foods = ['사과', '바나나','코코넛']
@@ -17,7 +17,7 @@ def greeting(request):
         'info' : info
     }
     # 큰 딕셔너리인 context를 return해준다
-    return render(request, 'greeting.html', context)
+    return render(request, 'articles/greeting.html', context)
     #name은 변수 이름이 되는 것, 오른쪽의 값이 자리에 오게됨
 
 
@@ -27,10 +27,10 @@ def dinner(request):
     intro = "어떤 메뉴를 먹어야 잘 먹었다고 소문이 날까요?"
     my_number = random.choice(range(1,101))
     context = {'pick' : pick,'foods' : foods, 'texts' : intro, 'number': my_number}
-    return render(request, 'dinner.html', context)
+    return render(request, 'articles/dinner.html', context)
 
 def throw(request):
-    return render(request, 'throw.html')
+    return render(request, 'articles/throw.html')
 
 def catch(request):
     print(request)
@@ -41,10 +41,10 @@ def catch(request):
     message = request.GET.get('message')
     context = {'message' : message}
 
-    return render(request, 'catch.html', context)
+    return render(request, 'articles/catch.html', context)
 
 def hello(request, name):
     context = {
         'name' : name,
     }
-    return render(request, 'hello.html', context)
+    return render(request, 'articles/hello.html', context)

@@ -2,6 +2,8 @@
 from django.urls import path
 from . import views
 
+app_name = 'articles'
+
 urlpatterns = [
     path('index/', views.index, name='index'), #사용자에게 index.html을 보여주게된다.
     path('greeting/',views.greeting, name='greeting'),
