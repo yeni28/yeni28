@@ -11,7 +11,7 @@ T = int(input())
 for tc in range(1, T+1):
     ans = ""
     N, num = input().split()
-    for i in num: #47FE
+    for i in num:
         if '0' <= i <= '9':
             number = int(i)
             ans += str(Bbit_print(number))
