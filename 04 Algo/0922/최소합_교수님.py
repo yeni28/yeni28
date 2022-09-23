@@ -10,8 +10,7 @@ for tc in range(1, T+1):
     arr = [list(map(int, input().split())) for _ in range(N)]
 
     # 중간까지의 합을 다시 계산하지 않도록 기억해놓는 방법을 이용
-
-    dp  = [[0] * N for _ in range(N)]
+    dp = [[0] * N for _ in range(N)]
     # dp의 각 칸의 숫자는 그 칸 까지 왔을 때의 최소합의 저장 값이다.
 
     # 이동방향은 왼-> 오, 위-> 아래
