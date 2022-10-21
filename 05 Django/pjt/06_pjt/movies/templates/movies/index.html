@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load bootstrap5 %}
+
+{% block content %}
+
+<h1> <b> INDEX </b></h1>
+
+<a href="{% url 'movies:create' %}" class='btn btn-danger'>CREATE</a>
+<hr>
+{% for movie in movies %}
+
+<a href="{% url 'movies:detail' movie.pk %}"> {{movie.title}} </a> <hr>
+{% endfor %}
+{% endblock content %}
+
+
+
+
+
+
+
+
+
