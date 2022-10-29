@@ -1,3 +1,4 @@
+
 # data = [0,4,1,3,1,2,4,1]
 
 # # # 숫자의 종류만큼 방을 만들어 줘요
@@ -39,3 +40,24 @@ for k in range(len(tall_size)-1):
         
        
 print(sum_two)
+=======
+p = 'is'
+t = 'this is a book~!'
+M = len(p)
+N = len(t)
+
+
+def BruteForce(p, t):
+    i = 0 #t의 인덱스
+    j = 0 #p의 인덱스
+    while j < M and i < N :
+        if t[i] != p[j]:
+            i = i = j
+            j = -1
+        i = i + 1
+        j = j + 1
+    if j == M : return i - M #검색 성공!
+    else : return -1 #검색 실패
+
+
+print(BruteForce(p, t))
