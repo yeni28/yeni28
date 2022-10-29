@@ -1,6 +1,10 @@
-n = int(input())
+a,b = map(int,input().split())
 
-for i in range(1,10):
-    print(f' {n} * {i} = {n*i}')
-
-    
+if a > b:
+    print('>')
+elif a < b:
+    print('<')
+elif a == b:
+    print('==')
+else:
+    pass
