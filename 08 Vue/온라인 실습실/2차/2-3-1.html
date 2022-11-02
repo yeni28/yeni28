@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .completed{
+        text-decoration: line-through;
+        color: grey;
+    }
+</style>
+<body>
+    <div id="app">
+
+    <h1> Todo List</h1>
+    <input type=" text" v-model="content">
+    <button @click="add">+</button>
+
+    <hr>
+
+    <ul>
+        <li v-for="todo in todos":key="todo.idx">
+            <input type="checkbox" v-model="todo.completed">
+            <span :class="{completed:todo.completed}">{{todo.title}}</span>
+        </li>
+    </ul>
+    <button @click="deleteCompleted">완료 목록 삭제</button>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+    <script>
+
+        const app = new Vue({
+            el: '#app',
+            data:{
+                idx:0,
+                content:"HELLO, VUE", 
+                todos:[]
+            },
+            methods:{
+                add() {
+                    this.todos.push({
+                        idx: this.idx,
+                        title: this.content,
+                        completed: false,
+                    })
+                    this.idx++; //데이터 베이스의 오토인크리먼트와 비슷한 역할
+                },
+                deleteCompleted(){
+                    const filtered = this.todos.filter((todo)=>{
+                        // return todo.completed === false
+                        return !todo.completed;
+                    })
+                    this.todos = filtered;
+
+                }
+            }
+        })
+
+    </script>
+
+</body>
+</html>
+
