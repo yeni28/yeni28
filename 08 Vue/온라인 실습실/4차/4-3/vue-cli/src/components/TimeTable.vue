@@ -9,10 +9,10 @@
     <h3>시간 선택</h3>
     <div class="table">
         <span class="time" 
-        v-for="(time, index) in times" :key="index" 
+        <!-- v-for="(time, index) in times" :key="index" 
         @click="timeSelect(time)"
         :class="{'selbtn':isSelected(time)}"
-        >{{time}}</span>
+        >{{time}}</span> -->
     </div>  
 
     <button class="btn" @click="reservation"> 예약 확정 </button>
