@@ -1,6 +1,6 @@
 <div align="center">
    
-<a href="https://github.com/yeni28"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=appletail&theme=dracula&layout=compact&langs_count=10" /></a>
+<a href="https://github.com/yeni28"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yeni28&theme=dracula&layout=compact&langs_count=10" /></a>
   
 
   ### Yeaeun
