@@ -23,31 +23,30 @@ How to reach me orthogonal28@gmail.com
    
 <br>
 
-      - 안전거래 장소를 추천하는 동네 이웃 간 대여 서비스(2023년 4월 10일 ~ 2023년 5월 19일) 
-   경찰서, CCTV, 가로등 api를 활용한 단계별 안전거래 장소 추천 및 실시간 위치 확인, 위치 기반 동네 대여서비스
-   기술 환경: SpringBoot(SPA), stomp, react, typescript, next.js
-   인원 : 백엔드(3) 프론트엔드(3)
-   역할 : FrontEnd
+   - 안전거래 장소를 추천하는 동네 이웃 간 대여 서비스(2023년 4월 10일 ~ 2023년 5월 19일)
+<br>경찰서, CCTV, 가로등 api를 활용한 단계별 안전거래 장소 추천 및 실시간 위치 확인, 위치 기반 동네 대여서비스
+<br>기술 환경: SpringBoot(SPA), stomp, react, typescript, next.js
+<br>인원 : 백엔드(3) 프론트엔드(3)
+<br>역할 : FrontEnd
    
    - 뜨개 도안 추천 및 뜨개 튜토리얼 웹 사이트(2023년 2월 27일 ~ 2023년 4월 7일)
-   스크롤 애니메이션 및 Three.js를 활용한 3D 뜨개 튜토리얼 제공 및
-   빅데이터를 활용한 뜨개질 도안 추천
-   기술 환경: SpringBoot(SPA), react, typescript, three.js
-   인원 : 백엔드(3) 프론트엔드(3)
-   역할 : FrontEnd
+   <br> 스크롤 애니메이션 및 Three.js를 활용한 3D 뜨개 튜토리얼 제공 및 빅데이터를 활용한 뜨개질 도안 추천
+   <br> 기술 환경: SpringBoot(SPA), react, typescript, three.js
+   <br> 인원 : 백엔드(3) 프론트엔드(3)
+   <br> 역할 : FrontEnd
    
    
    - 상태를 감정으로 표현하는 IoT 반려식물 (2023년 01월 10일 ~ 2023년 02월 16일)  
-   기술 환경 : SpringBoot(SPA), react, javascript
-   인원 : 백엔드(2) 임베디드 (3) 프론트엔드(1)
-   역할 : FrontEnd
+   <br>기술 환경 : SpringBoot(SPA), react, javascript
+   <br>인원 : 백엔드(2) 임베디드 (3) 프론트엔드(1)
+   <br>역할 : FrontEnd
 
    
    - 영화 추천 웹사이트 (2022년 11월 16일 ~ 2022년 11월 24일)  
    협업 필터링을 적용해 사용자의 취향에 맞게 영화를 추천하는 웹사이트
-   기술 환경 : Django(SPA), vue.js  
-   인원 : 백엔드(1) 프론트엔드(1)
-   역할 : FrontEnd
+   <br>기술 환경 : Django(SPA), vue.js  
+   <br>인원 : 백엔드(1) 프론트엔드(1)
+   <br>역할 : FrontEnd
    
    
 
